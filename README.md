@@ -27,19 +27,19 @@
 
 ## **⚡** 上图不多说
 
-![image-20230308005938357](E:\work\project\万用生成器\app\README.assets\image-20230308005938357.png)
+![image-20230308005938357](README.assets/image-20230308005938357-1678210183896-1-1678210191445-3-1678210214869-5.png)
 
-![e44e76da133258015b6538a0f135628](E:\work\project\万用生成器\app\README.assets\e44e76da133258015b6538a0f135628.png)
+![e44e76da133258015b6538a0f135628](README.assets/e44e76da133258015b6538a0f135628-1678210219682-7.png)
 
-![7a69c21e7e5d1a024b940cb636d0848](E:\work\project\万用生成器\app\README.assets\7a69c21e7e5d1a024b940cb636d0848.png)
+![7a69c21e7e5d1a024b940cb636d0848](README.assets/7a69c21e7e5d1a024b940cb636d0848-1678210224005-9.png)
 
-<img src="E:\work\project\万用生成器\app\README.assets\image-20230308011555433.png" alt="image-20230308011555433" style="zoom: 33%;" />
+<img src="README.assets/image-20230308011555433-1678210226111-11.png" alt="image-20230308011555433" style="zoom: 33%;" />
 
 
 
 ## 🦊在线体验
 
-![3c28b9855bbb5e7510c032a4fe1b90f](E:\work\project\万用生成器\app\README.assets\3c28b9855bbb5e7510c032a4fe1b90f.jpg)
+![3c28b9855bbb5e7510c032a4fe1b90f](README.assets/3c28b9855bbb5e7510c032a4fe1b90f-1678210228589-13.jpg)
 
 > or wx 搜 万用生成器 
 >
@@ -49,7 +49,7 @@
 
 ## 👻交流or反馈
 
-<img src="E:\work\project\万用生成器\app\README.assets\555b28ed3da752b54dd71207c52f7a5.jpg" alt="555b28ed3da752b54dd71207c52f7a5" style="zoom:50%;" />
+<img src="README.assets/555b28ed3da752b54dd71207c52f7a5-1678210229965-15.jpg" alt="555b28ed3da752b54dd71207c52f7a5" style="zoom:50%;" />
 
 
 
