@@ -1,0 +1,68 @@
+.chain_mask {
+    background: rgba(0,0,0,.6);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.chain_dialog {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 50%;
+    max-width: 600rpx;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    z-index: 5000;
+}
+
+.dialog_title {
+    color: #6d7278;
+    margin-top: 48rpx;
+}
+
+.dialog_content,.dialog_title {
+    font-size: 24rpx;
+    font-weight: 500;
+}
+
+.dialog_content {
+    color: #222;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    margin-top: 26rpx;
+}
+
+.dialog_button {
+    border-top: 1rpx solid #f5f7fa;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40rpx;
+    width: 100%;
+}
+
+.dialog_cancel {
+    color: #909399;
+}
+
+.dialog_cancel,.dialog_confirm {
+    font-size: 24rpx;
+    font-weight: 500;
+    padding: 28rpx 0rpx;
+    width: 50%;
+}
+
+.dialog_confirm {
+    border-left: 1rpx solid #f5f7fa;
+    color: #222;
+}

@@ -1,0 +1,56 @@
+{
+    "pages": [
+        "pages/index/index",
+		"pages/tool/tool",
+		"pages/ribaozhoubao/index",
+		"pages/wenzhang/index",
+		"pages/wenan/index",
+		"pages/jiantaoshu/index",
+		"pages/liyou/index",
+		"pages/pingjia/index",
+		"pages/gerenzongjie/index",
+		"pages/haowumiaoshu/index",
+		"pages/kendejiv50/index",
+		"pages/about/index",
+		"pages/login/index",
+        "pages/mine/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#32A060",
+        "navigationBarTitleText": "万用生成器",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#F7F7F7",
+        "backgroundColorTop": "#F7F7F7",
+        "backgroundColorBottom": "#F7F7F7"
+    },
+    "tabBar": {
+        "color": "#32A060",
+        "selectedColor": "#ffffff",
+        "backgroundColor": "#32A060",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [
+			{
+			    "pagePath": "pages/index/index",
+			    "text": "首页",
+			    "iconPath": "icons/圈子，发现 (1).png",
+			    "selectedIconPath": "icons/圈子，发现.png"
+			},
+			{
+			    "pagePath": "pages/mine/index",
+			    "text": "我的",
+			    "iconPath": "icons/我的 (1).png",
+			    "selectedIconPath": "icons/我的.png"
+			}
+        ]
+    },
+    "networkTimeout": {
+        "request": 300000,
+        "downloadFile": 300000
+    },
+    "subPackages": [
+        
+    ],
+    "sitemapLocation": "sitemap.json"
+}

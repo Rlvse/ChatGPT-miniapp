@@ -1,0 +1,41 @@
+.box {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: fixed;
+    right: 0;
+    width: 600rpx;
+    z-index: 999;
+}
+
+.arrow {
+    border: 5px solid transparent;
+    border-bottom-color: rgba(0,0,0,.75);
+    height: 0;
+    width: 0;
+}
+
+.body {
+    align-items: center;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 10px;
+    display: flex;
+    height: 42px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tips {
+    color: #fff;
+    flex: 1;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.logo {
+    border-radius: 10px;
+    height: 42px;
+    margin-right: 10px;
+    width: 42px;
+}

@@ -1,0 +1,159 @@
+<add-tips name="万用生成器"></add-tips>
+<view class="home_index">
+	
+    <!-- <view bindtap="gotogzh" class="vip-box data-v-3590e630">
+        <image class="vip-logo data-v-3590e630" mode="aspectFit" src="../../images/my_vip_icon.png"></image>
+		顶部浮窗
+        <view class="vip-content data-v-3590e630">
+            <text class="vip-title data-v-3590e630">万用生成，一个效率神器</text>
+            <text class="vip-tips data-v-3590e630">{{$root.f0}}</text>
+        </view>
+        <text class="vip-right-tips data-v-3590e630">{{showVipTips}}</text>
+        <image class="right-arrows data-v-3590e630" mode="aspectFit" src="../../images/right_white.png"></image>
+    </view> -->
+	
+    <view class="notice">
+        <view class="xixia">
+            <view class="notice-containTitle left: 5rpx;">公告栏</view>
+            <view class="line"></view>
+            <swiper autoplay="true" circular="true" class="tab-right" displayMultipleItems="1" interval="5000" vertical="true">
+                <swiper-item wx:for="{{aa}}" wx:key="index">
+                    <view class="content-item">
+                        <view class="name">{{item.nickName}}</view> 
+                    </view>
+                </swiper-item>
+            </swiper>
+        </view>
+    </view>
+	
+    <view class="xixia-v4"></view>
+    <view style="position: relative;left: 25rpx;font-size: 28rpx;color: rgb(255, 255, 255);font-weight: 600;">办公必备</view>
+	<!-- 日报周报 -->
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:55rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/ribaozhoubao/index" version="trial">
+        <view class="tool_wrap">
+            <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: red;">
+				热门</view>
+            <view class="tool_info">
+                <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">日报周报</view>
+                <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">一键生成，上班必备神器</view>
+            </view>
+            <image src="https://multigen.qingbuqing.cn/icons/推荐.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -80rpx;"></image>
+        </view>
+    </navigator>
+	<!-- 文章框架 -->
+	<navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-160rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/wenzhang/index" version="trial">
+	    <view class="tool_wrap">
+	        <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(252, 80, 0);">
+				推荐
+				</view>
+	        <view class="tool_info">
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">文章框架</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">一键生成可靠的文章大纲</view>
+	        </view>
+	        <image src="https://multigen.qingbuqing.cn/icons/认证.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
+	    </view>
+	</navigator>
+	<!-- 文案 -->
+	<navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:25rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/wenan/index" version="trial">
+	    <view class="tool_wrap">
+	        <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;">
+				
+			</view>
+	        <view class="tool_info">
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">文案</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">一键为你生成热门标题/文案/文章摘要</view>
+	        </view>
+	        <image src="https://multigen.qingbuqing.cn/icons/喜欢.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -140rpx;"></image>
+	    </view>
+	</navigator>
+	<!-- 检讨书 -->
+	<navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-160rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/jiantaoshu/index" version="trial">
+	    <view class="tool_wrap">
+	        <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(102, 76, 230);">
+				推荐 </view>
+	        <view class="tool_info">
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">检讨书</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">一键为你生成难憋的检讨书</view>
+	        </view>
+	        <image src="https://multigen.qingbuqing.cn/icons/心动.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -90rpx;"></image>
+	    </view>
+	</navigator>
+
+    <view style="position: relative;left: 25rpx;font-size: 28rpx;color: rgb(248, 248, 248);font-weight: 600;">生活实用</view>
+	<!-- 理由 -->
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:55rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/liyou/index" version="trial">
+        <view class="tool_wrap">
+            <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: red;">
+				热门</view>
+            <view class="tool_info">
+                <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">理由推脱</view>
+                <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">还在为理由想破脑袋？</view>
+            </view>
+            <image src="https://multigen.qingbuqing.cn/icons/心动.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
+        </view>
+    </navigator>
+	<!-- 评价 -->
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-160rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/pingjia/index" version="trial">
+        <view class="tool_wrap">
+            <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(63, 202, 7);">
+				上新 </view>
+            <view class="tool_info">
+                <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">评价生成</view>
+                <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">还在手写评价？</view>
+            </view>
+            <image src="https://multigen.qingbuqing.cn/icons/推荐.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
+        </view>
+    </navigator>
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:25rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/gerenzongjie/index" version="trial">
+        <view class="tool_wrap">
+            <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;"></view>
+            <view class="tool_info">
+                <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">个人总结</view>
+                <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">让我帮你去总结</view>
+            </view>
+            <image src="https://multigen.qingbuqing.cn/icons/喜欢.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
+        </view>
+    </navigator>
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-160rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/haowumiaoshu/index" version="trial">
+        <view class="tool_wrap">
+            <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(241, 129, 0);">
+				推荐 </view>
+            <view class="tool_info">
+                <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">好物描述</view>
+                <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">也许比你更会描述</view>
+            </view>
+            <image src="https://multigen.qingbuqing.cn/icons/推荐.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
+        </view>
+    </navigator>
+	
+    <view style="position: relative;left: 25rpx;font-size: 28rpx;color: rgb(248, 248, 248);font-weight: 600;">更多好玩</view>
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:25rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/kendejiv50/index" version="trial">
+        <view class="tool_wrap">
+            <view class="tool_info">
+                <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: #27c4ac;">
+					上新 </view>
+                <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">肯德基v我50文案</view>
+                <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">专属于你的</view>
+            </view>
+            <image src="https://multigen.qingbuqing.cn/icons/火热.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
+        </view>
+    </navigator>
+    
+	
+    <!-- <view class="more_hint">作者：七里香</view> -->
+    <!-- <view class="more_hint">地址：</view> -->
+    <!-- <view class="more_hint">更多功能持续更新中，欢迎反馈</view> -->
+<!--    <view class="home_swiper">
+        <ad adIntervals="60" bindclose="adClose" binderror="adError" bindload="adLoad" unitId="adunit-8e509190606cd228"></ad>
+    </view> -->
+</view>
+<button class="shareCon" hoverClass="shareget" openType="share" size="mini"><view style = "font-size:25rpx;">分享给小伙伴</view></button>

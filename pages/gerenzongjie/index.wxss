@@ -1,0 +1,176 @@
+
+.view-contain-ti {
+  display: flex;
+  height: 50px;
+  margin: 10px;
+  border: 5rpx solid #fac800;
+  border-radius: 10rpx;
+}
+
+.text-ti {
+  position: absolute;
+  font-size: 12px;
+  background: rgb(242, 242, 242);  
+  margin: -10px 0 0 10px;
+  padding: 0 5px;
+  color: rgb(0, 0, 0);
+}
+
+.answer {
+  margin:  auto 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #888;
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  text-overflow: ellipsis;
+  overflow:hidden; 
+}
+
+.clear {
+  margin:  auto 10px;
+  margin-left: 28%;
+  margin-right: 5%;
+  margin-top: 15px;
+  font-size: 10px;
+  color: #888;
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  text-overflow: ellipsis;
+  overflow:hidden; 
+}
+
+.index {
+    padding: 0 42rpx 40rpx;
+}
+
+.index .content {
+    background-color: #f4f4f4;
+    border-radius: 20rpx;
+    margin-top: 40rpx;
+    padding: 24rpx 28rpx;
+}
+
+.index .content .content_contain {
+    font-size: 24rpx;
+    height: 200rpx;
+}
+
+.index .content .url_button {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.index .content .url_button .button_clean {
+    color: #999;
+    font-size: 24rpx;
+    font-weight: 500;
+}
+
+.index .content .url_button .button_parse {
+    background-color: #222;
+    border-radius: 50rpx;
+    color: #fff;
+    font-size: 24rpx;
+    font-weight: 600;
+    margin-left: 40rpx;
+    padding: 12rpx 36rpx;
+}
+
+.index .video_content .tutorial_wrap {
+    align-items: center;
+    display: flex;
+    margin: 32rpx 0;
+}
+
+.index .video_content .tutorial_wrap .tutorial_title {
+    color: #222;
+    font-size: 28rpx;
+    font-weight: 600;
+}
+
+.index .video_content .tutorial_wrap .icon-problem {
+    font-size: 32rpx;
+    margin-left: 12rpx;
+}
+
+.index .video_content .tutorial_item_wrap image {
+    border: 1rpx solid #efefef;
+    border-radius: 20rpx;
+}
+
+.index .video_content .tutorial_item_wrap .tutorial_content {
+    color: #222;
+    font-size: 28rpx;
+    font-weight: 600;
+    margin: 40rpx 0;
+}
+
+.index .video_content .video_title {
+    color: #222;
+    font-size: 28rpx;
+    font-weight: 600;
+    margin: 32rpx 0;
+}
+
+.index .video_content video {
+    border-radius: 16rpx;
+    width: 100%;
+}
+
+.index .video_content .video_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 52rpx;
+}
+
+.index .video_content .video_button .save_audio,.index .video_content .video_button .save_cover {
+    border: 1rpx solid #222;
+    border-radius: 50rpx;
+    color: #222;
+    font-size: 28rpx;
+    font-weight: 600;
+    margin-right: 48rpx;
+    padding: 20rpx 80rpx;
+}
+
+.index .video_content .video_button .save_video {
+    border: 1rpx solid #222;
+    border-radius: 50rpx;
+    color: #222;
+    font-size: 28rpx;
+    font-weight: 600;
+    padding: 20rpx 80rpx;
+}
+
+.index .video_content .share {
+    font-size: 28rpx;
+    font-weight: 600;
+    margin-bottom: 16rpx;
+    margin-top: 40rpx;
+}
+
+.index .video_content .icon-weixin,.index .video_content .share {
+    color: #222;
+    display: flex;
+    justify-content: center;
+}
+
+.index .video_content .icon-weixin {
+    background-color: #fff;
+    font-size: 80rpx;
+}
+
+.xixia-v4 {
+    border-radius: 0rpx;
+    border-radius: 40rpx;
+    margin-top: 30rpx;
+}
+
+.xixia {
+    background-color: #222;
+    color: #fff;
+}

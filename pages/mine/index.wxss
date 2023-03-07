@@ -1,0 +1,149 @@
+.mine_index {
+    padding: 0 42rpx;
+}
+
+.my_index {
+    padding-bottom: 80rpx;
+}
+
+.tip_line {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    font-size: 10pt;
+    justify-content: center;
+    padding: 5rpx 10rpx;
+    width: 700rpx;
+}
+
+.more_hint {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-size: 25rpx;
+    justify-content: center;
+    margin-top: 30rpx;
+}
+
+.mine_index .mine_info {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40rpx;
+}
+
+.mine_index .mine_info .user_avatar {
+    border-radius: 50%;
+    height: 136rpx;
+    width: 136rpx;
+}
+
+.mine_index .mine_info .user_info {
+    flex: 1;
+    margin-left: 30rpx;
+}
+
+.mine_index .mine_info .user_info .user_name {
+    color: #f1f0f0;
+    font-size: 34rpx;
+    font-weight: 500;
+}
+
+.mine_index .mine_info .user_info .user_hint {
+    color: #666;
+    font-size: 26rpx;
+    margin-top: 10rpx;
+}
+
+.mine_index .mine_info .logout {
+    flex: 1;
+    margin-left: 560rpx;
+    margin-top: -100rpx;
+	color: #666;
+	font-size: 26rpx;
+	margin-top: -200rpx;
+}
+
+.mine_index .function_navi {
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 20rpx;
+    display: flex;
+    height: 140rpx;
+    justify-content: center;
+    margin-top: 60rpx;
+}
+
+.mine_index .function_navi .iconfont {
+    font-size: 40rpx;
+    margin-left: 40rpx;
+    margin-right: 36rpx;
+}
+
+.mine_index .function_navi .function_wrap {
+    flex: 1;
+}
+
+.mine_index .function_navi .function_wrap .function_name {
+    color: #fcf6f6;
+    font-size: 26rpx;
+    font-weight: 600;
+}
+
+.mine_index .function_navi .function_wrap .function_content {
+    color: #8e8e8e;
+    font-size: 18rpx;
+    margin-top: 6rpx;
+}
+
+.mine_index .function_navi .icon-right {
+    font-size: 28rpx;
+    margin-right: 28rpx;
+}
+
+.mine_index .mine_setup .setup_wrap {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70rpx;
+    margin-top: 70rpx;
+    position: relative;
+}
+
+.mine_index .mine_setup .setup_wrap .iconfont {
+    font-size: 40rpx;
+}
+
+.mine_index .mine_setup .setup_wrap .setup_name {
+    color: #f7f5f5;
+    flex: 1;
+    font-size: 26rpx;
+    font-weight: 600;
+    margin-left: 24rpx;
+}
+
+.mine_index .mine_setup .setup_wrap .setup_hint {
+    color: #666;
+    font-size: 20rpx;
+    font-weight: 500;
+}
+
+.mine_index .mine_setup .setup_wrap .icon-right {
+    font-size: 28rpx;
+}
+
+.mine_index .mine_setup .setup_wrap button {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+page {
+    background: #32A060;
+}

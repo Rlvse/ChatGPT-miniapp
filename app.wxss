@@ -1,0 +1,120 @@
+@import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+
+@font-face {
+    font-family: iconfont;
+    src: url("//at.alicdn.com/t/font_2425790_qijamijv2d.woff2?t=1624066802991") format("woff2"),url("//at.alicdn.com/t/font_2425790_qijamijv2d.woff?t=1624066802991") format("woff"),url("//at.alicdn.com/t/font_2425790_qijamijv2d.ttf?t=1624066802991") format("truetype");
+}
+
+page {
+  background-color: rgb(242, 242, 242);
+}
+
+.iconfont {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: iconfont!important;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.icon-support:before {
+    content: "\e8af";
+}
+
+.icon-inform:before {
+    content: "\e8c4";
+}
+
+.icon-refresh:before {
+    content: "\e8bf";
+}
+
+.icon-pay-success:before {
+    content: "\e61f";
+}
+
+.icon-order:before {
+    content: "\e8be";
+}
+
+.icon-download:before {
+    content: "\e8b7";
+}
+
+.icon-camera:before {
+    content: "\e8bc";
+}
+
+.icon-scan-success:before {
+    content: "\e8c3";
+}
+
+.icon-scan-error:before {
+    content: "\e8c6";
+}
+
+.icon-delete:before {
+    content: "\e646";
+}
+
+.icon-success:before {
+    content: "\e666";
+}
+
+.icon-weixin:before {
+    content: "\e621";
+}
+
+.icon-right:before {
+    content: "\e6a3";
+}
+
+.icon-problem:before {
+    content: "\e8ac";
+}
+
+.icon-record:before {
+    content: "\e8ad";
+}
+
+.icon-signin:before {
+    content: "\e8ae";
+}
+
+.icon-share:before {
+    content: "\e8b0";
+}
+
+.icon-switch:before {
+    content: "\e8b1";
+}
+
+.icon-clock:before {
+    content: "\e8b4";
+}
+
+.icon-search:before {
+    content: "\e8b9";
+}
+
+.icon-about:before {
+    content: "\e8ba";
+}
+
+.icon-wechat:before {
+    content: "\e8bb";
+}
+
+.icon-recommend:before {
+    content: "\e8bd";
+}
+
+iamge,navigator,page,swiper,swiper-item,text,view {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+image {
+    width: 100%;
+}

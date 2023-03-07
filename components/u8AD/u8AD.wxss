@@ -1,0 +1,228 @@
+.u8_banner_wrap {
+    align-items: center;
+    background: #fff!important;
+    box-shadow: 0 0 7rpx 0 rgba(0,127,255,.5);
+    display: flex;
+    height: 150rpx!important;
+    padding: 0 20rpx;
+    position: relative;
+}
+
+.u8_banner_logo_wrap {
+    height: 100rpx;
+    margin-right: 30rpx;
+    overflow: hidden;
+    width: 100rpx;
+}
+
+.u8_banner_logo_wrap .image {
+    border-radius: 50%;
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.u8_banner_desc_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+}
+
+.u8_banner_name {
+    color: #333!important;
+    font-size: 30rpx!important;
+    line-height: 42rpx!important;
+}
+
+.u8_banner_desc,.u8_banner_name {
+    display: block!important;
+    height: auto!important;
+    width: 100%!important;
+}
+
+.u8_banner_desc {
+    color: #666!important;
+    font-size: 22rpx!important;
+    line-height: 34rpx!important;
+}
+
+.u8_banner_button {
+    border: 1rpx solid #06c;
+    border-radius: 27rpx;
+    color: #06c;
+    font-size: 22rpx!important;
+    height: 52rpx!important;
+    line-height: 52rpx!important;
+    text-align: center;
+    width: 110rpx!important;
+}
+
+.u8_banner_tip {
+    align-items: center;
+    background: #b7b7b7!important;
+    border-radius: 14rpx 0 0 14rpx;
+    color: #fff!important;
+    font-size: 18rpx!important;
+    height: 28rpx!important;
+    justify-content: center;
+    line-height: 16px!important;
+    position: absolute;
+    right: 0rpx;
+    top: 122rpx;
+    width: 120rpx!important;
+}
+
+.u8_banner_tip,.u8_banner_wrap1 {
+    display: flex;
+}
+
+.u8_banner_wrap1 {
+    overflow: hidden;
+    position: relative;
+    width: 100%!important;
+}
+
+.u8_banner_wrap1 .image {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.u8_insert_wrap {
+    background: rgba(0,0,0,.3);
+    height: 100%!important;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%!important;
+    z-index: 9999;
+}
+
+.u8_insert_content {
+    background: #fff;
+    border-radius: 8rpx;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 600rpx;
+    left: calc(50% - 255rpx);
+    overflow: hidden;
+    position: relative;
+    top: calc(35% - 250rpx);
+    width: 510rpx;
+}
+
+.u8_insert_content,.u8_insert_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.u8_insert_logo {
+    align-items: center;
+    flex-direction: column;
+    margin: 20rpx 0;
+}
+
+.u8_insert_logo .image {
+    border-radius: 50%;
+    height: 140rpx;
+    width: 140rpx;
+}
+
+.u8_insert_logo .text {
+    color: #333!important;
+    font-size: 36rpx!important;
+    font-weight: bolder;
+    margin-top: 20rpx;
+}
+
+.u8_insert_desc {
+    align-items: center;
+    background: rgba(0,102,204,.8);
+    color: #fff!important;
+    display: flex;
+    font-size: 24rpx!important;
+    height: 80rpx;
+    justify-content: center;
+    line-height: 40rpx;
+    padding: 20rpx 40rpx;
+    text-align: center;
+    width: 100%;
+}
+
+.u8_insert_button {
+    border: 1px solid #06c;
+    border-radius: 8rpx;
+    color: #06c!important;
+    font-size: 28rpx!important;
+    height: 70rpx!important;
+    line-height: 70rpx;
+    text-align: center;
+    width: 280rpx!important;
+}
+
+.u8_insert_close {
+    display: flex;
+    left: calc(50% - 35rpx);
+    position: relative;
+    top: calc(40% - 270rpx);
+}
+
+.u8_insert_close .image {
+    height: 50rpx!important;
+    width: 50rpx!important;
+    z-index: 2;
+}
+
+.u8_insert_content1 {
+    display: flex;
+    left: calc(50% - 300rpx);
+    overflow: hidden;
+    position: relative;
+    top: calc(50% - 250rpx);
+    width: 600rpx!important;
+}
+
+.u8_insert_adimg {
+    width: 100%;
+}
+
+.u8_insert_close1 {
+    height: 34rpx!important;
+    padding: 10rpx;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 34rpx!important;
+    z-index: 2;
+}
+
+.u8_fixed_wrap {
+    bottom: 140rpx;
+    display: flex;
+    height: 110rpx!important;
+    position: fixed;
+    right: 40rpx;
+    width: 110rpx!important;
+    z-index: 9998;
+}
+
+.u8_fixed_close {
+    height: 26rpx!important;
+    position: absolute;
+    right: -14rpx;
+    top: -10rpx;
+    width: 26rpx!important;
+    z-index: 2;
+}
+
+.u8_fixed_img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.u8AD_nav {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

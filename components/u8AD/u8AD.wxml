@@ -1,0 +1,53 @@
+<u8-ad>
+    <view class="{{adID}}" data-type="1" wx:if="{{adData[adID].adtype===1}}">
+        <view style="width:100%;" wx:if="{{adData[adID].hasshow}}">
+            <view bindtap="clickAd" class="u8_banner_wrap" wx:if="{{adData[adID].show_type==1}}">
+                <view class="u8_banner_logo_wrap">
+                    <image bindload="adLoad" class="image" src="{{adData[adID].pic}}"></image>
+                </view>
+                <view class="u8_banner_desc_wrap">
+                    <text class="u8_banner_name">{{adData[adID].name}}</text>
+                    <text class="u8_banner_desc">{{adData[adID].desc}}</text>
+                </view>
+                <view class="u8_banner_button">打 开</view>
+                <text class="u8_banner_tip">U8AD.COM</text>
+                <navigator appId="{{adData[adID].to_appid}}" bindfail="navFail" bindtap="clickAd" class="u8AD_nav" data-id="{{adID}}" extraData="{{adData[adID].encdata}}" path="{{adData[adID].load_page}}" target="miniProgram" wx:if="{{adData[adID].jump_type===2}}"></navigator>
+            </view>
+            <view class="u8_banner_wrap1" wx:else>
+                <image bindload="adLoad" bindtap="clickAd" class="image" data-id="{{adID}}" mode="widthFix" src="{{adData[adID].pic}}"></image>
+                <navigator appId="{{adData[adID].to_appid}}" bindfail="navFail" bindtap="clickAd" class="u8AD_nav" data-id="{{adID}}" extraData="{{adData[adID].encdata}}" path="{{adData[adID].load_page}}" target="miniProgram" wx:if="{{adData[adID].jump_type===2}}"></navigator>
+            </view>
+        </view>
+    </view>
+    <view class="{{adID}}" data-type="2" wx:if="{{adData[adID].adtype===2}}">
+        <view bindtap="close" class="u8_insert_wrap" data-closeid="{{adID}}" wx:if="{{adData[adID].hasshow}}">
+            <block wx:if="{{adData[adID].show_type==1}}">
+                <view bindtap="clickAd" class="u8_insert_content">
+                    <view class="u8_insert_logo">
+                        <image bindload="adLoad" class="image" src="{{adData[adID].pic}}"></image>
+                        <text class="text">{{adData[adID].name}}</text>
+                    </view>
+                    <view class="u8_insert_desc">{{adData[adID].desc}}</view>
+                    <view class="u8_insert_button">立即体验</view>
+                    <navigator appId="{{adData[adID].to_appid}}" bindfail="navFail" bindtap="clickAd" class="u8AD_nav" data-id="{{adID}}" extraData="{{adData[adID].encdata}}" path="{{adData[adID].load_page}}" target="miniProgram" wx:if="{{adData[adID].jump_type===2}}"></navigator>
+                </view>
+                <view class="u8_insert_close">
+                    <!-- <image bindtap="close" class="image" src="https://www.u8ad.com/Public/images/insert_close.png"></image> -->
+                    <image bindtap="close" class="image" src="../../images/insert_close.png"></image>
+                </view>
+            </block>
+            <view class="u8_insert_content1" wx:else>
+                <image bindload="adLoad" bindtap="clickAd" class="u8_insert_adimg" data-id="{{adID}}" mode="widthFix" src="{{adData[adID].pic}}"></image>
+                <image bindtap="close" class="u8_insert_close1" data-closeid="{{adID}}" src="../../images/ad_sdk_close.png"></image>
+                <navigator appId="{{adData[adID].to_appid}}" bindfail="navFail" bindtap="clickAd" class="u8AD_nav" data-id="{{adID}}" extraData="{{adData[adID].encdata}}" path="{{adData[adID].load_page}}" target="miniProgram" wx:if="{{adData[adID].jump_type===2}}"></navigator>
+            </view>
+        </view>
+    </view>
+    <view class="{{adID}}" data-type="4" wx:if="{{adData[adID].adtype===4}}">
+        <view class="u8_fixed_wrap" wx:if="{{adData[adID].hasshow}}">
+            <image bindtap="close" class="u8_fixed_close" src="../../images/fixed_close.png"></image>
+            <image bindload="adLoad" bindtap="clickAd" class="u8_fixed_img" data-id="{{adID}}" mode="widthFix" src="{{adData[adID].pic}}"></image>
+            <navigator appId="{{adData[adID].to_appid}}" bindfail="navFail" bindtap="clickAd" class="u8AD_nav" data-id="{{adID}}" extraData="{{adData[adID].encdata}}" path="{{adData[adID].load_page}}" target="miniProgram" wx:if="{{adData[adID].jump_type===2}}"></navigator>
+        </view>
+    </view>
+</u8-ad>

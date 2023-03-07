@@ -1,0 +1,12 @@
+<view hidden="{{!isShow}}">
+    <view bindtap="_cancelClick" class="chain_mask"></view>
+    <view class="chain_dialog">
+        <view class="dialog_title">请确保账号无误，充值后将无法退换</view>
+        <view class="dialog_account">{{account}}</view>
+        <view class="dialog_goods_name">{{name}}</view>
+        <view class="dialog_button">
+            <view bindtap="_cancelClick" class="dialog_cancel">取消</view>
+            <view bindtap="_confirmClick" class="dialog_confirm">确定</view>
+        </view>
+    </view>
+</view>

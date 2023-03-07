@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+		"mp-dialog": "../../miniprogram_npm/weui-miniprogram/dialog/dialog",
+		"mp-form": "../../miniprogram_npm/weui-miniprogram/form/form",
+		"mp-form-page": "../../miniprogram_npm/weui-miniprogram/form-page/form-page"
+	},
+    "navigationBarTitleText": "检讨书"
+}

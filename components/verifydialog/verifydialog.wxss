@@ -1,0 +1,79 @@
+.chain_mask {
+    background: rgba(0,0,0,.6);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.chain_dialog {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 50%;
+    max-width: 600rpx;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    z-index: 5000;
+}
+
+.dialog_title {
+    color: #222;
+    margin-top: 48rpx;
+}
+
+.dialog_account,.dialog_title {
+    font-size: 24rpx;
+    font-weight: 500;
+}
+
+.dialog_account {
+    align-items: center;
+    background-color: #edeff2;
+    border-radius: 16rpx;
+    color: #e02020;
+    display: flex;
+    justify-content: center;
+    margin-top: 40rpx;
+    padding: 20rpx 0rpx;
+    width: 330rpx;
+}
+
+.dialog_goods_name {
+    color: #606266;
+    font-size: 24rpx;
+    margin-top: 24rpx;
+}
+
+.dialog_button {
+    border-top: 1rpx solid #f5f7fa;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20rpx;
+    width: 100%;
+}
+
+.dialog_cancel {
+    color: #909399;
+}
+
+.dialog_cancel,.dialog_confirm {
+    font-size: 24rpx;
+    font-weight: 500;
+    padding: 28rpx 0rpx;
+    width: 50%;
+}
+
+.dialog_confirm {
+    border-left: 1rpx solid #f5f7fa;
+    color: #222;
+}

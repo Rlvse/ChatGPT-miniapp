@@ -1,0 +1,6 @@
+<view class="video_help">
+    <view class="tutorial_item_wrap" wx:for="{{tutorials}}" wx:key="*this">
+        <image mode="widthFix" src="{{item.tutorialImage}}"></image>
+        <view class="tutorial_content">{{item.tutorialContent}}</view>
+    </view>
+</view>

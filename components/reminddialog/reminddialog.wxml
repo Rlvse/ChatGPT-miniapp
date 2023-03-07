@@ -1,0 +1,11 @@
+<view hidden="{{!isShow}}">
+    <view bindtap="_cancelClick" class="chain_mask"></view>
+    <view class="chain_dialog">
+        <view class="dialog_title">{{title}}</view>
+        <view class="dialog_content">{{content}}</view>
+        <view class="dialog_button">
+            <view bindtap="_cancelClick" class="dialog_cancel">{{cancel}}</view>
+            <view bindtap="_confirmClick" class="dialog_confirm">{{confirm}}</view>
+        </view>
+    </view>
+</view>

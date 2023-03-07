@@ -1,0 +1,7 @@
+<view class='header'>
+  <image src="/img/logo.png"></image><!-- 用户头像 -->
+</view>
+<view>
+   <button class="bottom" bindtap="login">授权登录</button><!-- 授权登录按钮 -->
+</view>
+<!-- type='primary' 默认按钮为蓝色 --><!-- 授权登录 为按钮内容 -->

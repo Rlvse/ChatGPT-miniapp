@@ -1,0 +1,16 @@
+
+.video_help {
+    margin: 32rpx;
+}
+
+.video_help .tutorial_item_wrap image {
+    border: 1rpx solid #efefef;
+    border-radius: 20rpx;
+}
+
+.video_help .tutorial_item_wrap .tutorial_content {
+    color: #222;
+    font-size: 28rpx;
+    font-weight: 600;
+    margin: 40rpx 0;
+}
