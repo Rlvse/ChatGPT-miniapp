@@ -23,61 +23,6 @@ App({
 
 		this.checkIslogin()
 	},
-	//点击事件
-	  login: function(){
-	    var _this=this;
-	    wx.getUserProfile({
-	      desc: 'desc',
-	      success: (res)=>{
-	        //点击允许后获取微信昵称与微信头像
-	        var nickName=res.userInfo.nickName;
-	        var log=res.userInfo.avatarUrl;
-			
-			wx.setStorageSync("userInfo", res.userInfo);
-			
-	        wx.login({
-	          success:function(e){
-	            //请求成功后获取你的code值
-	            var code = e.code;
-	            wx.request({
-	              //请求后台
-	              url: 'http://multigen.qingbuqing.cn/User/login',
-				  method: "post",
-	              //传code、nickName、log
-	              data: {code:code,nickName:nickName,log:log},
-	              header:{
-	                'content-type':'application/x-www-form-urlencoded'
-	              },
-	              success: function(arr){
-	                //判断后台请求成功后
-	                if(arr.data.code==200){
-	                  //将返回的ID值存入缓存中
-	                  wx.setStorageSync('userKey', arr.data.data)
-	                  //弹框提示
-	                  wx.showToast({
-	                    title: "授权成功",
-	                    icon: 'success'
-	                  })
-	                }else{
-						wx.showToast({
-						  title: "授权错误",
-						  icon: 'error'
-						})
-					}
-	              }
-	            })
-	          }
-	        })
-	      },
-	      fail:(res)=>{
-	        //点击拒绝后弹框提示
-	        wx.showToast({
-	          title: '授权失败',
-	          icon: 'error'
-	        })
-	      }
-	    })
-	  },
 	
 	autoUpdate: function() {
 		var n = this;

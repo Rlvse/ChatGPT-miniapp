@@ -91,8 +91,9 @@
                 return e.default.wrap(function(n) {
                     for (;;) switch (n.prev = n.next) {
                       case 0:
+						// TODO
                         return n.next = 2, (0, t.request)({
-                            url: "/tools3/banners.json"
+                            url: ""
                         });
 
                       case 2:
@@ -114,8 +115,9 @@
                 return e.default.wrap(function(n) {
                     for (;;) switch (n.prev = n.next) {
                       case 0:
+					  // TODO
                         return n.next = 2, (0, t.request)({
-                            url: "/tools3/groups1.json"
+                            url: ""
                         });
 
                       case 2:

@@ -14,7 +14,7 @@ Component({
         },
         logo: {
             type: String,
-            value: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-1f712703-6a3e-4be5-afdd-3198babb75c4/fd9fb562-2950-4a4e-a84e-d83212a3fccc.png"
+            value: "https://multigen.qingbuqing.cn/img/logo.png"
         },
         custom: {
             type: Boolean,
