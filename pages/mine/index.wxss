@@ -22,9 +22,9 @@
     align-items: center;
     color: #ffffff;
     display: flex;
-    font-size: 25rpx;
+    font-size: 22rpx;
     justify-content: center;
-    margin-top: 30rpx;
+    margin-top: 10rpx;
 }
 
 .mine_index .mine_info {

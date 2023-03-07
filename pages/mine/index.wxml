@@ -29,7 +29,7 @@
         </view> -->
 		
 		<view bindtap="showPic" class="tip_line" style="height: 100rpx;flex-direction: column">
-		    <text>反馈意见/联系</text>
+		    <text>👻反馈意见/联系</text>
 		</view>
 	
     </view>
@@ -38,7 +38,11 @@
 		<view style="height:30rpx;"></view>
 		<!-- <view class="more_hint">作者：七里香</view> -->
 		<!-- <view class="more_hint">地址：</view> -->
-		<view class="more_hint">更多功能持续更新中，欢迎反馈</view>
+		<view class="more_hint">🦊目前服务器不稳定，如果请求延迟or无法访问属正常现象</view>
+		<view class="more_hint">👻休息一下重试即可！</view>
+		<view class="more_hint">🔧若持续无法使用，请联系</view>
+		<view class="more_hint">👻项目相关or反馈可点击👆扫码交流</view>
+		<view class="more_hint">⚡持续更新中，欢迎提出宝贵意见</view>
 	</view>
 	
 </view>
