@@ -30,6 +30,8 @@
 	Page({
 		data: {
 			userInfo: {},
+			messages:[],
+			qrcode:{},
 			userKey: null,
 			hasUserInfo: !1,
 			canIUseGetUserProfile: !1,
@@ -37,6 +39,8 @@
 		},
 		onLoad: function(e) {
 			this.getSoul();
+			this.getMessage();
+			this.getQrcode();
 			var n = wx.getStorageSync("userInfo");
 
 			if (n) {
@@ -96,10 +100,47 @@
 			});
 		},
 		showPic: function() {
-			wx.previewImage({
-				// TODO
-				urls: ["https://multigen.qingbuqing.cn/img/qrcode.jpg"]
-			});
+				var img = this.data.qrcode.content;
+				console.log(img);
+				wx.previewImage({
+					urls: [img]
+				});
+		},
+		
+		getMessage: function(){
+			wx.request({
+			    url: 'https://multigen.qingbuqing.cn/Api/getmessages',
+				method: 'GET',
+			    success: (result) => {
+					console.log('获取留言成功！');
+			        console.log(result.data.data);
+					this.setData({
+						messages: result.data.data, 
+					})
+			    },
+				fail(err) { //接口调用失败的回调函数 用户拒绝授权登录后，出现的提示窗
+					console.error(err) //打印输出错误数据
+					console.error("获取留言失败")
+				}
+			})
+		},
+		
+		getQrcode: function(){
+			wx.request({
+			    url: 'https://multigen.qingbuqing.cn/Api/getqrcode',
+				method: 'GET',
+			    success: (result) => {
+					console.log('获取二维码成功！');
+			        console.log(result.data.data);
+					this.setData({
+						qrcode: result.data.data, 
+					})
+			    },
+				fail(err) { //接口调用失败的回调函数 用户拒绝授权登录后，出现的提示窗
+					console.error(err) //打印输出错误数据
+					console.error("获取二维码失败")
+				}
+			})
 		},
 
 		getProfile(e) { //点击授权登录时产生的监听事件

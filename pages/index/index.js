@@ -26,11 +26,12 @@
     }(require("../../lib/runtime/runtime"));
     Page({
         data: {
-            aa: [ {
-                nickName: "万用生成器，一个好玩的效率神器"
-            }, {
-                nickName: "如果觉得好用的话，请分享给盆友哟！"
-            }],
+            // aa: [ {
+            //     nickName: "万用生成器，好玩的效率神器"
+            // }, {
+            //     nickName: "如果觉得好用的话，请分享给盆友哟！"
+            // }],
+			notices:[],
             banners: [],
             tools3: [],
             groupInfo: {}
@@ -41,7 +42,11 @@
             });
         },
         onLoad: function(n) {
-            this.checkSession(), this.getBannerInfos(), this.getToolInfos(), this.getGroupInfo();
+            this.checkSession(), 
+			this.getBannerInfos(), 
+			this.getToolInfos(), 
+			this.getNotice(), 
+			this.getGroupInfo();
         },
         onReady: function() {},
         onShow: function() {},
@@ -84,6 +89,23 @@
         adClose: function() {
             console.log("Banner 广告关闭");
         },
+		getNotice: function(){
+			wx.request({
+			    url: 'https://multigen.qingbuqing.cn/Api/getnotices',
+				method: 'GET',
+			    success: (result) => {
+					console.log('获取公告成功！');
+			        console.log(result.data.data);
+					this.setData({
+						notices: result.data.data, 
+					})
+			    },
+				fail(err) { //接口调用失败的回调函数 用户拒绝授权登录后，出现的提示窗
+					console.error(err) //打印输出错误数据
+					console.error("获取公告失败")
+				}
+			})
+		},
         getBannerInfos: function() {
             var o = this;
             return n(e.default.mark(function n() {

@@ -17,9 +17,9 @@
             <view class="notice-containTitle left: 5rpx;">公告栏</view>
             <view class="line"></view>
             <swiper autoplay="true" circular="true" class="tab-right" displayMultipleItems="1" interval="5000" vertical="true">
-                <swiper-item wx:for="{{aa}}" wx:key="index">
+                <swiper-item wx:for="{{notices}}" wx:key="index">
                     <view class="content-item">
-                        <view class="name">{{item.nickName}}</view> 
+                        <view class="name">{{item.content}}</view> 
                     </view>
                 </swiper-item>
             </swiper>
