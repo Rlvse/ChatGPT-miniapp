@@ -20,6 +20,7 @@
             wx.request(e({}, n, {
                 header: r,
                 url: "https://s30.app1112118708.qqopenapp.com" + n.url,
+                // url: "https://multigen.qingbuqing.cn" + n.url,
                 success: function(e) {
                     a(e.data.data);
                 },

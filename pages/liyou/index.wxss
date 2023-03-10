@@ -1,8 +1,7 @@
 
 .view-contain-ti {
-  display: flex;
   height: 50px;
-  margin: 10px;
+  margin: 0px;
   border: 5rpx solid #fac800;
   border-radius: 10rpx;
 }
@@ -10,36 +9,27 @@
 .text-ti {
   position: absolute;
   font-size: 12px;
-  background: rgb(242, 242, 242);  
+  background: rgb(242, 242, 242);
   margin: -10px 0 0 10px;
   padding: 0 5px;
   color: rgb(0, 0, 0);
 }
 
 .answer {
-  margin:  auto 10px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 10px;
+  margin-top: 11px;
   font-size: 13px;
   color: #888;
-  display: -webkit-box;
-  -webkit-box-orient:vertical;
-  text-overflow: ellipsis;
-  overflow:hidden; 
 }
 
 .clear {
-  margin:  auto 10px;
-  margin-left: 28%;
-  margin-right: 5%;
-  margin-top: 15px;
-  font-size: 10px;
+  background: rgb(242, 242, 242);
+  margin-left: 90%;
+  margin-right: 0%;
+  margin-top: 3px;
+  font-size: 12px;
   color: #888;
-  display: -webkit-box;
-  -webkit-box-orient:vertical;
-  text-overflow: ellipsis;
-  overflow:hidden; 
 }
 
 .index {
@@ -55,7 +45,7 @@
 
 .index .content .content_contain {
     font-size: 24rpx;
-    height: 200rpx;
+    height: 500rpx;
 }
 
 .index .content .url_button {

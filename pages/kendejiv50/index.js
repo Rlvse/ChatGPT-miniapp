@@ -43,7 +43,8 @@
 				wordIndex: 0,
 				words: ['50', '100'],
 				text: "",
-				result: "",
+				// result: "",
+				result: "一个晚上，我独自待在家中。突然，手机响起。短信上写着：'你能接我50吗？' 但短信的发件人却是已故的朋友。 我下意识回复了“能”，\n但还没等我发出，手机便自动回复了一条消息，里面写着“太晚了，我已经到了你的门口”。我吓得大叫，门铃猛响，我无法控制地颤抖着打开门。只见门外站着一个阴影，那个声音缓缓地告诉我：“你什么都看不到，什么都听不到，除了我的命令。”",
 
 				videoObj: {},
 				videoInfos: [],
@@ -107,6 +108,14 @@
 				wordIndex: e.detail.value
 			})
 		}),
+		  
+		  e(t, "remarkLineAction", function(options) {
+			//行数
+			let lineCount = options.detail.lineCount;
+			let height = options.detail.height;
+			let heightRpx = options.detail.heightRpx;
+			console.log("输入框行数变化 " + lineCount)
+		  }),
 
 		e(t, "adClose", function() {
 			console.log("生成关闭");
@@ -193,7 +202,7 @@
 									break;
 								}
 								wx.showToast({
-									title: "当前访问人数较多，请稍后重试",
+									title: "访问人数较多，请稍后重试",
 									icon: "error"
 								})
 								return;

@@ -1,9 +1,8 @@
 <view class="index">	
 	<!-- 分割线 -->
-	<view style="display: flex;margin-top:50rpx ;">
-	      <view style="background-color: lightgray; width: 100%; height: 5rpx;"></view>
-	    </view>
-
+	<view style="display: flex;margin-top:10rpx ;">
+	    <view style="background-color: lightgray; width: 100%; height: 1rpx;"></view>
+	</view>
 
 		<view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
 			<label class="weui-label" style="font-size:12px; font-weight:bold;">类型</label>
@@ -35,15 +34,15 @@
     </view>
 	
 	<view class="content" wx:if="{{result}}">
-	    <textarea disabled="disabled" class="content_contain" maxlength="500" placeholder="等待提交中" type="text" value="{{result}}"></textarea>
+	    <textarea disabled="disabled" class="content_contain" maxlength="1000" placeholder="等待提交中" type="text" value="{{result}}"></textarea>
 		<view>
 			<button bindtap="copy">复制</button>
 		</view>
 	</view>
 	
-	<view style="display: flex;margin-top:50rpx ;">
-	      <view style="background-color: lightgray; width: 100%; height: 5rpx;"></view>
-	    </view>
+	<view style="display: flex;margin-top:10rpx ;">
+	    <view style="background-color: lightgray; width: 100%; height: 1rpx;"></view>
+	</view>
 	
     <!-- <view class="video_content">
         <view bindtap="onHelpPage" class="tutorial_wrap" wx:if="{{videoInfos.length==0}}">

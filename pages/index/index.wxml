@@ -82,6 +82,19 @@
 	        <image src="https://multigen.qingbuqing.cn/icons/心动.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -90rpx;"></image>
 	    </view>
 	</navigator>
+	<!-- 代码助手 -->
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:30rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/code/index" version="trial">
+	    <view class="tool_wrap">
+            <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(63, 202, 7);">
+				上新 </view>
+	        <view class="tool_info">
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">代码助手</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">为你解决疑难杂症</view>
+	        </view>
+	        <image src="https://multigen.qingbuqing.cn/icons/认证.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -90rpx;"></image>
+	    </view>
+	</navigator>
 
     <view style="position: relative;left: 25rpx;font-size: 28rpx;color: rgb(248, 248, 248);font-weight: 600;">生活实用</view>
 	<!-- 理由 -->

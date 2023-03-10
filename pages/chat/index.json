@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText": "AIROBOT",
+	"enablePullDownRefresh" : true,
+	"backgroundTextStyle" : "dark",
+	"usingComponents": {
+	}
+}

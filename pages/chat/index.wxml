@@ -1,0 +1,47 @@
+<!-- <view wx:for="{{questions || []}}" wx:for-index="index" wx:key="index" wx:for-item="que">
+	<text maxlength="1000" type="text" value="{{text}}" class="question">{{que}}</text>
+</view>
+<view wx:for="{{messages || []}}" wx:for-index="index" wx:key="index" wx:for-item="message">
+	<text maxlength="1000" type="text" value="{{text}}" class="answer">{{message}}</text>
+</view>	
+<view class="chat">
+	<view class="chat-box">
+		<view class="action-box">
+			<view class="action-top">
+				<input bindinput="handleTextInput" maxlength="700" type="text" placeholder="High Five!" class="msg-input-box" name="textP" value="{{textP}}"></input>
+				<view class="send-btn-box" bindtap="createTextMessage">发送</view>
+			</view>
+		</view>
+	</view>
+</view>
+ -->
+<!-- 
+ <block wx:for="{{questions || []}}" wx:for-index="index" wx:key="index" wx:for-item="que">
+ 	<text maxlength="1000" type="text" value="{{text}}" class="question">{{que}}</text>
+ </block> -->
+ 
+ <view style="display: flex;margin-top:10rpx ;">
+     <view style="background-color: lightgray; width: 100%; height: 1rpx;"></view>
+ </view>
+ 
+ <block wx:for="{{messages || []}}" wx:for-index="index" wx:key="index" wx:for-item="message">
+	<view class="scoll">
+ 	<view wx:if="{{message.role == 'q'}}">
+		<text maxlength="1000" type="text" value="{{message.text}}" class="question">{{message.text}}</text>
+	</view>
+ 	<view wx:if="{{message.role == 'a'}}">
+		<text maxlength="1000" type="text" value="{{message.text}}" class="answer">{{message.text}}</text>
+	</view>
+	</view>
+ </block>	
+ 
+ <view class="chat">
+ 	<view class="chat-box">
+ 		<view class="action-box">
+ 			<view class="action-top">
+ 				<input bindinput="handleTextInput" maxlength="700" type="text" placeholder="High Five!" class="msg-input-box" name="textP" value="{{textP}}"></input>
+ 				<view class="send-btn-box" bindtap="createTextMessage">发送</view>
+ 			</view>
+ 		</view>
+ 	</view>
+ </view>

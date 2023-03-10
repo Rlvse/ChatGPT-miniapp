@@ -6,6 +6,7 @@
 		"pages/wenzhang/index",
 		"pages/wenan/index",
 		"pages/jiantaoshu/index",
+		"pages/code/index",
 		"pages/liyou/index",
 		"pages/pingjia/index",
 		"pages/gerenzongjie/index",
@@ -13,6 +14,7 @@
 		"pages/kendejiv50/index",
 		"pages/about/index",
 		"pages/login/index",
+		"pages/chat/index",
         "pages/mine/index"
     ],
     "window": {
@@ -38,10 +40,16 @@
 			    "selectedIconPath": "icons/圈子，发现.png"
 			},
 			{
-			    "pagePath": "pages/mine/index",
-			    "text": "我的",
+			    "pagePath": "pages/chat/index",
+			    "text": "聊天",
 			    "iconPath": "icons/我的 (1).png",
 			    "selectedIconPath": "icons/我的.png"
+			},
+			{
+			    "pagePath": "pages/mine/index",
+			    "text": "我的",
+			    "iconPath": "icons/首页，主页 (1).png",
+			    "selectedIconPath": "icons/首页，主页.png"
 			}
         ]
     },
