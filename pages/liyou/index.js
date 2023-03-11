@@ -55,7 +55,7 @@
 
 				object: null,
 				objectIndex: 0,
-				objects: ['对象', '老板', '朋友', '单位'],
+				objects: ['老板','老师','客户','男/女朋友', '单位'],
 
 				reason: null,
 				reasonIndex: 0,
@@ -225,7 +225,7 @@
 									}
 									wx.showToast({
 										title: '访问人数较多，请稍后重试',
-										icon: 'error',
+										icon: 'none',
 									})
 									return;
 
@@ -246,7 +246,7 @@
 									}
 									 wx.showToast({
 										title: '当前访问人数较多，请稍后重试',
-										icon: 'error',
+										icon: 'none',
 									})
 									return;
 

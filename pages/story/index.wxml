@@ -1,0 +1,28 @@
+<view class="index">	
+	<!-- 分割线 -->
+	<view style="display: flex;margin-top:10rpx ;">
+	    <view style="background-color: lightgray; width: 100%; height: 1rpx;"></view>
+	</view>	
+	<view class="view-contain-ti">
+	    <text class="text-ti">关键字</text>
+	    <input bindinput="handleTextInput" maxlength="500" placeholder="选填" type="text" value="{{text}}" class="answer"></input>
+		<view bindtap="handleCleanText" class="clear">清空</view>
+	</view>
+	
+    <view class="body xixia-v4">
+        <button bindtap="handlePares" class="xixia btn">生成</button>
+    </view>
+	
+	<view class="content" wx:if="{{result}}">
+	    <textarea disabled="disabled" class="content_contain" maxlength="1000" placeholder="等待提交中" type="text" value="{{result}}"></textarea>
+		<view>
+			<button bindtap="copy">复制</button>
+		</view>
+	</view>
+	
+	<view style="display: flex;margin-top:10rpx ;">
+	    <view style="background-color: lightgray; width: 100%; height: 1rpx;"></view>
+	</view>
+		
+</view>
+<!-- <ad unitId="adunit-8e509190606cd228"></ad> -->

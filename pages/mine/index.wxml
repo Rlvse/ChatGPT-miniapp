@@ -35,7 +35,7 @@
     </view>
 	
 	<view class = "my_index">
-		<view style="height:30rpx;"></view>
+		<view style="height:10rpx;"></view>
 		<!-- <view class="more_hint">作者：七里香</view> -->
 		<!-- <view class="more_hint">地址：</view> -->
 		
@@ -43,6 +43,10 @@
 			<view class="more_hint">{{item.content}}</view>
 		</view>	
 		
+	</view>
+	
+	<view class = "my_index">
+		<view class="more_hint">😽已成功生成：{{reqdata.sum}}</view>
 	</view>
 	
 </view>

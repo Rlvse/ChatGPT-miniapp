@@ -8,10 +8,10 @@ Page({
 	onPullDownRefresh () {
 	},
 	onLoad: function(options) {
-
+		this.initMsg();
 	},
 	onUnload () {
-
+		
 	},
 	
 	handleTextInput: function (event) {
@@ -30,6 +30,17 @@ Page({
 		this.setData({
 			content: ''
 		});
+	},
+	
+	initMsg(){
+		let messages = this.data.messages;
+		messages.push({
+			"text": "Hello My Friend!「下方输入你的描述之后，轻点发送，等待回答」",
+			"role": "a"
+		})
+		this.setData({
+			messages: messages
+		})	
 	},
 
 	sendMessage(message){
@@ -66,6 +77,11 @@ Page({
 			return;
 		}
 		
+		var reqText = this.data.textP;
+		
+		this.setData({
+			textP: "",
+		})
 		
 		let messages = this.data.messages;
 		messages.length = 0;
@@ -88,8 +104,9 @@ Page({
 			data: {
 					"scene": "chat",
 					"u": userKey,
-					"text": this.data.textP
+					"text": reqText
 				},
+				
 		    success: (result) => {
 				if(result.data.code == 0){
 					var that = this;

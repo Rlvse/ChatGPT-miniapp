@@ -217,7 +217,7 @@
                     }
                      wx.showToast({
                         title: "访问人数较多，请稍后重试",
-                        icon: "error"
+                        icon: "none"
                     })
 					return;
 
@@ -238,7 +238,7 @@
                     }
                      wx.showToast({
                         title: "当前访问人数较多，请稍后重试",
-                        icon: "error"
+                        icon: "none"
                     })
 					return;
 

@@ -59,27 +59,26 @@
 	<navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:25rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
 	url="/pages/wenan/index" version="trial">
 	    <view class="tool_wrap">
+			<view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(102, 76, 230);">
+				推荐 </view>
 	        <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;">
-				
 			</view>
 	        <view class="tool_info">
-	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">文案</view>
-	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">一键为你生成热门标题/文案/文章摘要</view>
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -70rpx;font-weight: 600;">文案</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -60rpx;font-weight: 600;margin-top: 14rpx;">一键为你生成热门标题/文案/文章摘要</view>
 	        </view>
-	        <image src="https://multigen.qingbuqing.cn/icons/喜欢.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -140rpx;"></image>
+	        <image src="https://multigen.qingbuqing.cn/icons/火热.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -120rpx;width: 60rpx;position: relative;top: -150rpx;"></image>
 	    </view>
 	</navigator>
 	<!-- 检讨书 -->
 	<navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-160rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
 	url="/pages/jiantaoshu/index" version="trial">
 	    <view class="tool_wrap">
-	        <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(102, 76, 230);">
-				推荐 </view>
 	        <view class="tool_info">
-	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">检讨书</view>
-	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">一键为你生成难憋的检讨书</view>
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -10rpx;font-weight: 600;">检讨书</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: 0rpx;font-weight: 600;margin-top: 14rpx;">一键为你生成难憋的检讨书</view>
 	        </view>
-	        <image src="https://multigen.qingbuqing.cn/icons/心动.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -90rpx;"></image>
+	        <image src="https://multigen.qingbuqing.cn/icons/心动.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -60rpx;"></image>
 	    </view>
 	</navigator>
 	<!-- 代码助手 -->
@@ -93,6 +92,31 @@
 	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">为你解决疑难杂症</view>
 	        </view>
 	        <image src="https://multigen.qingbuqing.cn/icons/认证.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -90rpx;"></image>
+	    </view>
+	</navigator>
+	<!-- 方案能手 -->
+	<navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-160rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/fangan/index" version="trial">
+	    <view class="tool_wrap">
+	        <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(63, 202, 7);">
+				上新 </view>
+	        <view class="tool_info">
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">方案能手</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">一键为你解决方案输出</view>
+	        </view>
+	        <image src="https://multigen.qingbuqing.cn/icons/推荐.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -90rpx;"></image>
+	    </view>
+	</navigator>
+	<!-- 个人总结 -->
+	<navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:30rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/gerenzongjie/index" version="trial">
+	    <view class="tool_wrap">
+	        <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;"></view>
+	        <view class="tool_info">
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">个人总结</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">让我帮你去总结</view>
+	        </view>
+	        <image src="https://multigen.qingbuqing.cn/icons/喜欢.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -100rpx;"></image>
 	    </view>
 	</navigator>
 
@@ -110,8 +134,21 @@
             <image src="https://multigen.qingbuqing.cn/icons/心动.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
         </view>
     </navigator>
+	<!-- 哄人小故事 -->
+	<navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-165rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+	url="/pages/story/index" version="trial">
+	    <view class="tool_wrap">
+	        <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(63, 202, 7);">
+	        	上新 </view>
+	        <view class="tool_info">
+	            <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">哄人小故事</view>
+	            <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">哄女朋友?哄小朋友?来!</view>
+	        </view>
+	        <image src="https://multigen.qingbuqing.cn/icons/火热.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
+	    </view>
+	</navigator>
 	<!-- 评价 -->
-    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-160rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:30rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
 	url="/pages/pingjia/index" version="trial">
         <view class="tool_wrap">
             <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(63, 202, 7);">
@@ -123,18 +160,7 @@
             <image src="https://multigen.qingbuqing.cn/icons/推荐.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
         </view>
     </navigator>
-    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:25rpx;margin-left:30rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
-	url="/pages/gerenzongjie/index" version="trial">
-        <view class="tool_wrap">
-            <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;"></view>
-            <view class="tool_info">
-                <view style="color: #000000;font-size: 27rpx;position: relative; left: 5rpx; top: -35rpx;font-weight: 600;">个人总结</view>
-                <view style="color: #000000;font-size: 20rpx;position: relative; left: 5rpx; top: -31rpx;font-weight: 600;margin-top: 14rpx;">让我帮你去总结</view>
-            </view>
-            <image src="https://multigen.qingbuqing.cn/icons/喜欢.png" style="border-radius: 50%;height: 60rpx;margin-left: 230rpx;margin-top: -100rpx;width: 60rpx;position: relative;top: -70rpx;"></image>
-        </view>
-    </navigator>
-    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-160rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
+    <navigator openType="navigate" style="background-color: #ffffff;border-radius: 24rpx;bottom: 26rpx;display: flex;height: 162rpx;margin-right: 4rpx;margin-top:-165rpx;margin-left:390rpx;padding: 26rpx 26rpx 0rpx 30rpx;position: relative;width: 45%;" 
 	url="/pages/haowumiaoshu/index" version="trial">
         <view class="tool_wrap">
             <view style="align-items: center;border-radius: 3px;color: #fff;display: flex;font-size: 20rpx;font-weight: 500;height: 32rpx;justify-content: center;left: 250rpx;top:-35rpx;position: relative;width: 60rpx;z-index: 1;background-color: rgb(241, 129, 0);">

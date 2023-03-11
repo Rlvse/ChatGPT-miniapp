@@ -39,9 +39,13 @@
             text: null,
             result: "",
 			
-			type: null,
-			typeIndex: 0,
-			types: ['汇报', '论文', '笔记'],
+			// mode: null,
+			// modeIndex: 0,
+			// modes: ['帮写', '查BUG'],
+			
+			// lan: null,
+			// lanIndex: 0,
+			// lans: ['Java','PHP','JS','Python','C'],
 			
             videoObj: {},
             videoInfos: [],
@@ -58,19 +62,10 @@
                 urls: [ "https://takeaway.qingbuqing.cn/static/img/icon.jpg" ]
             });
         },
-        // waimai: function(e) {
-        //     wx.navigateTo({
-        //         url: "/pagesA/waimai/index"
-        //     });
-        // },
         onLoad: function(e) {
 			var app = getApp();
 			if (!app.globalData.isLogin) {
 				console.log("需要先登录");
-				// app.$http.get('/Api/getip', data).then(res =>{
-				//      console.log("200");
-				//      console.log(res.data);
-				//     })
 			} else {
 				console.log("已登录可使用");
 			}
@@ -83,14 +78,14 @@
         onReachBottom: function() {},
         onShareAppMessage: function() {
             return {
-                title: "快来生成文章框架",
-                path: "pages/ribaozhoubao/index",
+                title: "快来使用方案能手",
+                path: "pages/fangan/index",
                 imageUrl: "/icons/fx.jpg"
             };
         },
         onShareTimeline: function() {
             return {
-                title: "快来生成文章框架"
+                title: "快来使用方案能手"
             };
         }
     }, "onShareAppMessage", function() {}), e(t, "adLoad", function() {
@@ -99,35 +94,34 @@
         console.log("生成失败", e);
     }), 
 	
-	e(t, "bindTypePicker", function(e) {
-	    console.log('bindTypePicker发送选择改变，携带值为', e.detail.value)
+	e(t, "bindModePicker", function(e) {
+	    console.log('bindModePicker发送选择改变，携带值为', e.detail.value)
 		this.setData({
-		  typeIndex: e.detail.value
+		  modeIndex: e.detail.value
+		})
+	}),
+	
+	e(t, "bindLanPicker", function(e) {
+	    console.log('bindLanPicker发送选择改变，携带值为', e.detail.value)
+		this.setData({
+		  lanIndex: e.detail.value
 		})
 	}),
 	
 	e(t, "adClose", function() {
-        console.log("日报周报生成关闭");
-    }), e(t, "onHelpPage", function() {
-        wx.navigateTo({
-            url: "/pages/ribaozhoubao/help"
-        });
-    }), e(t, "handleTextInput", function(e) {
+        console.log("生成关闭");
+    }), 
+	
+	e(t, "handleTextInput", function(e) {
         this.setData({
             text: e.detail.value
         });
-	}), e(t, "handleJobInput", function(e) {
-		this.setData({
-			job: e.detail.value
-		});
-    }), e(t, "handleCleanText", function() {
+	}),  
+	
+	e(t, "handleCleanText", function() {
         this.setData({
             text: null
         });
-	}), e(t, "handleCleanJob", function() {
-	    this.setData({
-	        job: ""
-	    });
 	}), e(t, "copy", function() {
 		console.log("复制");
 		wx.setClipboardData({
@@ -192,10 +186,11 @@
                     }), o.next = 8, (0, n.request)({
                         url: "/Api/do",
                         data: {
-							"scene": "wenzhang_framework",
-							"u": userKey,
+							"scene": "fangan",
 							"text": e.data.text,
-							"type": e.data.typeIndex
+							"u": userKey,
+							// "mode": e.data.modeIndex,
+							// "lan": e.data.lanIndex
 						},
                         method: "post"
                     });

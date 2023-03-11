@@ -41,7 +41,7 @@
 			
 			object: null,
 			objectIndex: 0,
-			objects: ['男/女朋友', '老板', '朋友', '单位'],
+			objects: ['老板','男/女朋友', '朋友', '单位'],
 			
             videoObj: {},
             videoInfos: [],
@@ -212,7 +212,7 @@
                     }
                      wx.showToast({
                         title: "访问人数较多，请稍后重试",
-                        icon: "error"
+                        icon: "none"
                     })
 					return;
 
@@ -233,7 +233,7 @@
                     }
                      wx.showToast({
                         title: "当前访问人数较多，请稍后重试",
-                        icon: "error"
+                        icon: "none"
                     })
 					return;
 

@@ -32,6 +32,7 @@
 			userInfo: {},
 			messages:[],
 			qrcode:{},
+			reqdata:{},
 			userKey: null,
 			hasUserInfo: !1,
 			canIUseGetUserProfile: !1,
@@ -41,6 +42,7 @@
 			this.getSoul();
 			this.getMessage();
 			this.getQrcode();
+			this.getReqData();
 			var n = wx.getStorageSync("userInfo");
 
 			if (n) {
@@ -139,6 +141,24 @@
 				fail(err) { //接口调用失败的回调函数 用户拒绝授权登录后，出现的提示窗
 					console.error(err) //打印输出错误数据
 					console.error("获取二维码失败")
+				}
+			})
+		},
+		
+		getReqData: function(){
+			wx.request({
+			    url: 'https://multigen.qingbuqing.cn/Api/getreqdata',
+				method: 'GET',
+			    success: (result) => {
+					console.log('获取数据成功！');
+			        console.log(result.data.data);
+					this.setData({
+						reqdata: result.data.data, 
+					})
+			    },
+				fail(err) { //接口调用失败的回调函数 用户拒绝授权登录后，出现的提示窗
+					console.error(err) //打印输出错误数据
+					console.error("获取数据成功")
 				}
 			})
 		},

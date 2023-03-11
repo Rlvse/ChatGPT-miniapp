@@ -5,6 +5,7 @@
 		"pages/ribaozhoubao/index",
 		"pages/wenzhang/index",
 		"pages/wenan/index",
+		"pages/fangan/index",
 		"pages/jiantaoshu/index",
 		"pages/code/index",
 		"pages/liyou/index",
@@ -15,6 +16,8 @@
 		"pages/about/index",
 		"pages/login/index",
 		"pages/chat/index",
+		"pages/eatwhat/index",
+		"pages/story/index",
         "pages/mine/index"
     ],
     "window": {
