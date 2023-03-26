@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "default",
+  "navigationBarTitleText": "AI生活智能工具箱",
+  "navigationBarBackgroundColor": "#26B3A0",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  }
+}

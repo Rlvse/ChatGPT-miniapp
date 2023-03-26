@@ -46,3 +46,6 @@
 		
 </view>
 <!-- <ad unitId="adunit-8e509190606cd228"></ad> -->
+<view class="home_swiper">
+	<ad adIntervals="30" bindclose="adClose" binderror="adError" bindload="adLoad" unitId="adunit-0e40e666a31a7e09"></ad>
+</view>

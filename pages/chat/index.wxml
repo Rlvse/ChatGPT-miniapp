@@ -35,6 +35,8 @@
 	</view>
  </block>	
  
+
+ 
  <view class="chat">
  	<view class="chat-box">
  		<view class="action-box">
@@ -45,3 +47,4 @@
  		</view>
  	</view>
  </view>
+ 

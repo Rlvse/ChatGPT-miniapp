@@ -191,8 +191,12 @@
     <!-- <view class="more_hint">作者：七里香</view> -->
     <!-- <view class="more_hint">地址：</view> -->
     <!-- <view class="more_hint">更多功能持续更新中，欢迎反馈</view> -->
-<!--    <view class="home_swiper">
-        <ad adIntervals="60" bindclose="adClose" binderror="adError" bindload="adLoad" unitId="adunit-8e509190606cd228"></ad>
+<!--   <view class="home_swiper">
+        <ad adIntervals="60" bindclose="adClose" binderror="adError" bindload="adLoad" unitId="adunit-1172480ec85e8eb4"></ad>
     </view> -->
+	
+	<view class="home_swiper">
+	     <ad adIntervals="60" bindclose="adClose" binderror="adError" bindload="adLoad" unitId="adunit-1172480ec85e8eb4"></ad>
+	 </view>
 </view>
 <button class="shareCon" hoverClass="shareget" openType="share" size="mini"><view style = "font-size:25rpx;">分享给小伙伴</view></button>

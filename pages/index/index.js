@@ -47,6 +47,7 @@
 			this.getToolInfos(), 
 			this.getNotice(), 
 			this.getGroupInfo();
+			// this.showAD();
         },
         onReady: function() {},
         onShow: function() {},
@@ -68,6 +69,26 @@
                 console.error(n);
             });
         }),
+		
+		// showAD: function() {
+		//     let interstitialAd = null
+		    
+		//     if (wx.createInterstitialAd) {
+		//       interstitialAd = wx.createInterstitialAd({
+		//         adUnitId: 'adunit-6aff7f3862d37d44'
+		//       })
+		//       interstitialAd.onLoad(() => {})
+		//       interstitialAd.onError((err) => {})
+		//       interstitialAd.onClose(() => {})
+		//     }
+		//     // 在适合的场景显示插屏广告
+		//     if (interstitialAd) {
+		//       interstitialAd.show().catch((err) => {
+		//         console.error(err)
+		//       })
+		//     }
+		// },
+		
         onShareAppMessage: function() {
             return {
                 title: "快来体验好玩又实用的万用生成器",

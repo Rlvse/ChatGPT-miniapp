@@ -18,6 +18,7 @@
 		"pages/chat/index",
 		"pages/eatwhat/index",
 		"pages/story/index",
+		"pages/chatv/index",
         "pages/mine/index"
     ],
     "window": {
@@ -43,7 +44,7 @@
 			    "selectedIconPath": "icons/圈子，发现.png"
 			},
 			{
-			    "pagePath": "pages/chat/index",
+			    "pagePath": "pages/chatv/index",
 			    "text": "聊天",
 			    "iconPath": "icons/我的 (1).png",
 			    "selectedIconPath": "icons/我的.png"
